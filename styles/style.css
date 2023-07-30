@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #010b13;
+    /* margin: 0; */
+
+.navbar-nav .nav-link {
+    color: white;
+}
+.navbar-logo{
+    max-width: 60px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.navbar-logo,
+.website-name {
+  display: inline;
+}
+.website-name {
+    margin-left: 15px;
+  }
+
+.header-section{
+    background-color: #010b13;
+
+}
+
+/* .music-section{
+    background-color: #1b1b1b;
+} */
+.banner-image {
+        width: 418px;
+        height: 592px;
+        padding-left: 80px;
+        /* margin-top: -60px; */
+    }
+
+    
+    .banner-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #button1{
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+    }
+    #ticket-button{
+        margin-top: -14px;
+        padding-top: 12px;
+    }
+
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.heading{
+    padding-bottom: 60px;
+}
+
+.custom-container{
+    background-color: #0b0C10;
+    padding-top: 50px;
+    padding-bottom : 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.video-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.scrollBox
+{
+    width: 420px;
+    height: 73vh;
+    margin: 10px 5px;
+    margin-top: 0px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+
+.video-gallery-container .video
+{
+    float: left;
+    width: 860px;
+    height: 100%;
+    padding: 25px 20px;
+    border-radius: 30px;
+}
+
+
+video
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+.box
+{
+    overflow: hidden;
+    max-width: 400px;
+    margin: 10px 10px;
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+}
+
+.box img
+{
+    width: 100%;
+    display: block;
+}
+
+.scrollTop
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 100000;
+}
+@media(max-width: 1310px){
+    .video-gallery-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+@media(max-width: 865px){
+    .video-gallery-container .video
+    {
+        width: 95%;
+        float: none;
+    }
+    .video-gallery-container .scrollBox
+    {
+        float: none;
+    }
+}
+@media(max-width: 775px){
+    .video-gallery-container .video
+    {
+        width: 95%;
+    }
+}
+@media(max-width: 500px){
+    .video-gallery-container .video
+    {
+        width: 97%;
+    }
+}
+
+
+.footer{
+    padding-top: 60px;
+}
+
+.footer-text{
+    font-size: 10px;
+}
+}
