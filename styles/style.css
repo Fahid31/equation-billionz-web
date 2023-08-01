@@ -91,12 +91,12 @@ body{
         /* color: white; */
       }
       
-      @media (max-width: 767px) {
+      /* @media (max-width: 767px) {
         .text-section,
         .picture-section {
           height: auto;
         }
-      }
+      } */
 
 .section{
     padding-top: 50px;
