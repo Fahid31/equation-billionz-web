@@ -28,37 +28,85 @@ body{
 
 }
 
-/* .music-section{
-    background-color: #1b1b1b;
-} */
 .banner-image {
-        width: 418px;
-        height: 592px;
+        width: 582px;
+        height: 752px;
         padding-left: 80px;
-        /* margin-top: -60px; */
+        margin-top: -50px;
     }
 
-    
     .banner-image img {
         width: 100%;
         height: 100%;
     }
 
     #button1{
-            padding-left: 25px;
-            padding-right: 25px;
-            padding-top: 15px;
-            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 12px;
+            border-radius: 5px;
+ 
     }
+
+    #button2{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 12px;
+        padding-bottom: 5px;
+    }
+
     #ticket-button{
         margin-top: -14px;
         padding-top: 12px;
     }
 
+      .picture-section {
+        position: relative;
+        width: 390px;
+        height: 390px; 
+        border-radius: 50%; 
+        overflow: hidden; 
+      }
+
+      .picture-section img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+      
+
+      .text-section p {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-weight: lighter;
+      }
+      .text-section a{
+        text-decoration: none;
+        /* color: white; */
+      }
+      
+      @media (max-width: 767px) {
+        .text-section,
+        .picture-section {
+          height: auto;
+        }
+      }
+
 .section{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.divider {
+    height: 1px;
+    background-color: #ccc; 
+    margin-top: -60px;
+  }
 
 
 .heading{
@@ -67,10 +115,8 @@ body{
 
 .custom-container{
     background-color: #0b0C10;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom : 5px;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .video-section{
@@ -135,6 +181,21 @@ video
     background: transparent;
     z-index: 100000;
 }
+
+.accordion{
+    background-color: transparent;
+}
+.accordion-item{
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
 @media(max-width: 1310px){
     .video-gallery-container
     {
@@ -162,19 +223,31 @@ video
         width: 95%;
     }
 }
-@media(max-width: 500px){
+/* @media(max-width: 600px){
+
+} */
+
+
+@media screen and (max-width: 600px){
+    .banner-image {
+        width: 182px;
+        height: 252px;
+        padding-left: 80px;
+        margin-top: -50px;
+    }
+
+
+
     .video-gallery-container .video
     {
-        width: 97%;
+        padding-top: 30%;
     }
 }
 
 
-.footer{
-    padding-top: 60px;
-}
-
 .footer-text{
-    font-size: 10px;
-}
+    font-size: 29px;
+
+    line-height: 1.4;
+  }
 }

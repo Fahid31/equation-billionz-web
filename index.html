@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Equation billionz</title>
 
     <!-- Bootstrap link -->
@@ -13,7 +13,6 @@
 
     <!-- Font awesome -->
       <script src="https://kit.fontawesome.com/94fbe3d053.js" crossorigin="anonymous"></script>
-
       <link rel="icon" href="images/logo.jpeg">
 
 </head>
@@ -43,10 +42,10 @@
                 <a class="nav-link" href="#videos">Videos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tour">Tour</a>
+                <a class="nav-link" href="#about-me">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#follow&join">Follow + Join</a>
+                <a class="nav-link" href="#follow&join">Follow & Join</a>
               </li>
             </ul>
         </div>
@@ -63,11 +62,12 @@
           </div>
     
           <div class="col-md-6 d-block m-auto text-center text-white">
-            <h4>See Equation Billionz Live in UK</h4>
+            <h5>Dive into a World of Musical Ecstasy</h5>
+
             <div class="pt-4">
               <a href="https://www.ticketmaster.com/">
                 <button type="button" class="btn btn-outline-light" id="button1">
-                    <h5>GET TICKETS</h5>
+                    <h6>GET TICKETS</h6>
                     </button>
               </a>
             </div>
@@ -79,7 +79,11 @@
 
 </header>
 
+<div class="divider"></div>
+
     <main>
+
+
 
         <!-- Music slider starts here -->
 
@@ -87,7 +91,7 @@
 
   <div class="music-section" id="music">
 
-    <h2 class="text-center text-white heading">Songs</h2>
+    <h2 class="text-center text-white heading pt-5 pb-5">Songs</h2>
     <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -166,6 +170,44 @@
 
           </div>
         </div>
+        <div class="carousel-item">
+          <div class="card-wrapper container-sm d-flex   justify-content-around">
+
+            <div class="card bg-transparent border-0 text-white text-center" style="width: 14rem;">
+              <img src="images/song7.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-3 pb-3">Yes Please</h5>
+                <a href="https://soundcloud.com/thefinessegod666/yes-please">
+                  <button type="button" class="btn btn-outline-light mx-auto">Get It</button>
+                </a>
+  
+              </div>
+            </div>
+
+            <div class="card bg-transparent border-0 text-white text-center" style="width: 14rem;">
+              <img src="images/song7.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-3 pb-3">100MS</h5>
+                <a href="https://soundcloud.com/thefinessegod666/100ms">
+                  <button type="button" class="btn btn-outline-light mx-auto">Get It</button>
+                </a>
+  
+              </div>
+            </div>
+
+            <div class="card bg-transparent border-0 text-white text-center" style="width: 14rem;">
+              <img src="images/song7.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title pt-3 pb-3">Golden Child</h5>
+                <a href="https://soundcloud.com/thefinessegod666/golden-child">
+                  <button type="button" class="btn btn-outline-light mx-auto">Get It</button>
+                </a>
+  
+              </div>
+            </div>
+
+          </div>
+        </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -186,7 +228,7 @@
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
-          <div class="card">
+          <div class="card bg-transparent">
             <iframe class="card-img-top" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/diamonds-dancing/1683785993?i=1683786016"></iframe>
           </div>
         </div>
@@ -209,10 +251,10 @@
           <div class="card">
             <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/ic3/1683785993?i=1683786023"></iframe>
           </div>
-        </div> -->
-      <!-- </div>
+        </div>
+      </div>
+    </div> -->
 
-</div> -->
 
 <!-- Apple music grid ends here -->
 
@@ -224,29 +266,31 @@
 
       <!-- Video slider starts here -->
 
-<section class="section video-gallery">
+<section class="section video-gallery"  id="videos">
 
     <div oncontextmenu="return false" class="video-gallery" id="video/player">
 
         <div class="video-gallery-container">
             <h3 class="text-center text-white pt-3 pb-4">Video Gallery</h3>
             <div id="video_player">
-                <video controls poster="" class="video" id="video">
-                    <source src="videos/FAME EXPERIENCE.mp4" type="video/mp4">
-                    <source src="videos/FAME EXPERIENCE.mp4" type="video/mp4">
 
-                    <!-- <source src="./media/1.m4v" type="video/mp4"> -->
-                </video>
+                <video controls poster="" class="video" id="video">
+                  <source src="videos/FAME EXPERIENCE.mp4" type="video/mp4">
+                  <source src="videos/FAME EXPERIENCE.mp4" type="video/mp4">
+
+              </video>
+
+                
                 <div class="scrollBox">
                     <div class="box pt-3">
-                        <img src="images/song1.png">
+                        <img src="images/song7.png">
                         <div class="box-content">
                             <h5 class="box-heading text-white pt-2">Diamond Dancing</h5>
                             <a href="videos/Equation Billionz - Diamonds Dancing (Official Music Video).mp4" class="btn btn-outline-light">Watch</a>
                         </div>
                     </div>
                     <div class="box pt-3">
-                        <img src="images/song2.png">
+                        <img src="images/song8.jpeg">
                         <div class="box-content">
                             <h5 class="box-heading text-white pt-2">MEET AND GREET</h5>
                             <a href="videos/MEET AND GREET.mp4" class="btn btn-outline-light">Watch</a>
@@ -254,7 +298,7 @@
                         </div>
                     </div>
                     <div class="box pt-3">
-                        <img src="images/song3.png">
+                        <img src="images/song9.jpg">
                         <div class="box-content">
                             <h5 class="box-heading text-white pt-2">FELABRATIONS <br> PERFORMANCE</h5>
                             <a href="videos/FELABRATIONS PERFORMANCE  (1).mp4" class="btn btn-outline-light">Watch</a>
@@ -289,15 +333,59 @@
     }
     </script>
 
-
-<!-- <section class="section video-slider">
-    <div class="" id="videos">
+<section class="section video-slider">
+    <div class="">
           <iframe width="670" height="450" src="https://www.youtube-nocookie.com/embed/GGbDApluwGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <iframe width="670" height="450" src="https://www.youtube-nocookie.com/embed/8txsn_n4oGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-    </section> -->
+    <div class="pt-5 text-center">
+      <a href="https://www.youtube.com/channel/UCE8GqP1uHpuVDnhzXMa0eiQ">
+        <button type="button" class="btn btn-outline-light btn-sm" id="button2">
+            <h5>Watch More Videos</h5>
+            </button>
+      </a>
+    </div>
+    </section>
 
       <!-- Video slider ends here -->
+
+
+
+<!-- About Me Starts Here -->
+
+      <section class="" id="about-me">
+        <div class="container pb-5">
+          <h2 class="text-center text-white pt-5 pb-5">About Me</h2>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 text-section d-flex justify-content-center align-items-center">
+              
+              <p class="text-white">
+                
+                I started music at the age of 13 years old but took it up professionally when I was 16. This is where I released a track called <a href="https://youtu.be/W_2gnjxZlns">Faaji</a>.
+                When I was 17 years old I had done a song with Teni Makanaki called <a href="https://youtu.be/8txsn_n4oGw">Nowadays</a>. <br>
+                
+                From then my career started to kick off more. I went into making more music when i was in the states (Atlanta, GA). I met more people there and began networking. I recorded a few songs during my stay there. 
+                I then went back to nigeria where I made many good memories which include shooting videos to songs I composed called : <a href="https://youtu.be/V29fLuVKzsU">Aute</a> &
+                <a href="https://youtu.be/GGbDApluwGs">Benz</a> <br>
+              
+                I also did different performances including my own show at Baturey Brewer in Lagos Island. I had also done performances at Fela Shrine  and Freedom Park in Lagos. <br>
+                
+                It was such an honour being given a chance to showcase myself. I hope you enjoy all the details and music presented to you! <br>
+                
+                With Love, <br>
+                Equation Billionz</p>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+              <div class="picture-section">
+                <img src="images/about-standing.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me ends here -->
+
 
 
       <!-- Tour starts here -->
@@ -374,14 +462,75 @@
     </section> -->
             <!-- Tour ends here -->
 
+
+            <!-- Accordion section starts here -->
+            <section class="container mt-5 mb-5" id="about">
+              <h2 class="text-white text-center pb-5 pt-5">Interview Questions</h2>
+
+              <div class="col-lg-10 offset-lg-1">
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Who really is Equation Billionz?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                          <div class="accordion-body">
+                            I'm a recording artist from the Uk promoting my music in Nigeria. From Kent/London. <br> Equation was a name that never had a meaning before but now it has a deeper meaning. Equations are normally balanced and I believe that everything in life should be balanced also, such as good wealth, health, kindness etc.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Which has taken the front seat as a career for you. How it all began?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                          <div class="accordion-body">
+                            It started with football but as I got older I started diverting into music although I was doing the two simultaneously. But in the end music took over. I also did drama as well where I had main roles in plays etc. If an opportunity arises I would like to be involved in acting in a movie soon.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Why you infuse UK sound in afrobeats
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                          <div class="accordion-body">
+                           Equation Billionz said, “I make all kinds of sounds. Because I'm from the UK, my accent and sound won't change, so I infuse them into my brand of afrobeats. I listen to music every day. I want my sound to be different and unique. “I started music when I was 11 but took it professionally when I turned 16, which was when I released my first single.”
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            Any plans for an album this year?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                          <div class="accordion-body">
+                            Potentially could be dropping a project. I could be dropping a single again. Who knows, you'll have to find out soon enough. I know what I'm doing though (laughing).
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </section>
+
+
+
     </main>
 
                     <!-- Footer starts here -->
-                    <footer class="footer w-100">
+                    <footer class="footer">
                       <div class="custom-container text-center text-white" id="follow&join">
                         <h1>Follow & Join</h1>
 
-                      <div class="d-flex justify-content-center gap-3 pb-4 pt-3">
+                      <div class="d-flex justify-content-center gap-3 pb-4 pt-4">
                           <a href="https://www.facebook.com/equationmusic1/"><i class="fa-brands fa-facebook-square"></i></a>
                           <a href="https://instagram.com/officialequation?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></i></a>
                           <a href="https://www.youtube.com/channel/UCE8GqP1uHpuVDnhzXMa0eiQ"><i class="fa-brands fa-youtube"></i></a>
