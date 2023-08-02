@@ -138,17 +138,17 @@ body{
 
 
 
-.video-gallery-container .video
+.video-gallery-container .video-boxed
 {
     float: left;
     width: 860px;
     height: 100%;
     padding: 25px 20px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 
-video
+.video-boxed
 {
     border-radius: 10px;
     width: 100%;
@@ -158,11 +158,11 @@ video
 .box
 {
     overflow: hidden;
-    max-width: 400px;
+    max-width: 300px;
     margin: 10px 10px;
     display: inline-block;
     position: relative;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 .box img
@@ -196,7 +196,7 @@ video
 
 
 
-@media(max-width: 1310px){
+/* @media(max-width: 1310px){
     .video-gallery-container
     {
         display: flex;
@@ -216,38 +216,66 @@ video
     {
         float: none;
     }
-}
-@media(max-width: 775px){
+} */
+/* @media(max-width: 775px){
     .video-gallery-container .video
     {
         width: 95%;
     }
-}
+} */
 /* @media(max-width: 600px){
 
 } */
 
 
-@media screen and (max-width: 600px){
+@media only screen and (max-width: 600px)
+{
+    .website-name{
+        font-size: 20px;
+    }
     .banner-image {
-        width: 182px;
-        height: 252px;
-        padding-left: 80px;
-        margin-top: -50px;
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        margin-top: 0;
     }
-
-
-
-    .video-gallery-container .video
-    {
-        padding-top: 30%;
+    .video-gallery-container .video-boxed {
+        width: 100%;
     }
+    .video-slider iframe{
+        width: 100%;
+        height: auto;
+    }
+.banner-heading{
+    padding-top: 30px;
 }
+.divider{
+    display: none;
+}
+.music-section .card-title{
+    font-size: 13px;
 
+}
+.music-section .btn {
+ font-size: 11px;
+ padding: 7px 14px;
+}
+.box{
+    width: 190px;
+}
+.box-heading{
+    font-size: 19px;
 
+}
 .footer-text{
-    font-size: 29px;
+    font-size: 5px;
+    line-height: 1.2;
+  }
 
+
+}
+.footer-text{
+    font-size: 12px;
     line-height: 1.4;
   }
 }
