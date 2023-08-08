@@ -45,13 +45,30 @@ body{
         height: 100%;
     }
 
-    #button1{
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 12px;
-            border-radius: 5px;
- 
-    }
+    #button1 {
+        display: inline-block;
+        padding-top: 0.775rem ;
+        padding-bottom: 0.450rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        text-transform: none;
+        white-space: nowrap;
+        vertical-align: middle;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        color: #f8f9fa;
+        background-color: transparent;
+        border-color: #f8f9fa;
+      }
+    
+      #button1:hover {
+        color: #212529;
+        background-color: #f8f9fa;
+        border-color: #f8f9fa;
+      }
 
     #button2{
         padding-left: 17px;
@@ -60,12 +77,6 @@ body{
         padding-bottom: 5px;
     }
 
-    /* #button3{
-        padding: 8px 16px;
-        border-radius: 15px;
-        color: white;
-        background: transparent;
-    } */
 
     #button3 {
         display: inline-block;
@@ -89,36 +100,13 @@ body{
         border-color: #f8f9fa;
       }
       
-    #button1 {
-        display: inline-block;
-        padding-top: 0.375rem ;
-        padding-bottom: 0.350;
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        text-align: center;
-        text-transform: none;
-        white-space: nowrap;
-        vertical-align: middle;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
-        color: #f8f9fa;
-        background-color: transparent;
-        border-color: #f8f9fa;
-      }
     
-      #button1:hover {
-        color: #212529;
-        background-color: #f8f9fa;
-        border-color: #f8f9fa;
+      .banner-heading{
+        font-size: 30px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
       }
-    
 
-    #ticket-button{
-        margin-top: -14px;
-        padding-top: 12px;
-    }
 
       .picture-section {
         position: relative;
@@ -226,12 +214,6 @@ body{
 background-color: transparent;
 }
 
-/* .banner-content .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
 @media screen and (max-width: 600px)
 {
 
@@ -257,7 +239,9 @@ background-color: transparent;
         height: auto;
     }
 .banner-heading{
-    padding-top: 20px;
+    padding-top: 15px;
+    font-size: 5px;
+    padding-left: 10px;
 }
 .divider{
     display: none;
@@ -269,6 +253,9 @@ background-color: transparent;
 .music-section #button3 {
  font-size: 11px;
  padding: 6px 12px;
+}
+#button1 {
+    padding-bottom: 5px;
 }
 
 .box{
@@ -283,9 +270,6 @@ background-color: transparent;
     line-height: 1.2;
   }
 
-  *{
-    border-color: gray;
-}
 }
 
 @media screen and (max-width: 768px) {
