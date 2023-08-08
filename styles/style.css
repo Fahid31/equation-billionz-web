@@ -234,6 +234,7 @@ background-color: transparent;
 
 @media screen and (max-width: 600px)
 {
+
     .website-name{
         font-size: 20px;
     }
@@ -243,13 +244,10 @@ background-color: transparent;
     }
     .banner-content .row {
     width: 100%;
-     margin-right: 0;
-     margin-left: 0;
       }
     .banner-image {
         width: 100%;
         height: auto;
-        /* padding-left: 10px; */
     }
     .video-gallery-container .video-boxed {
         width: 100%;
@@ -259,7 +257,7 @@ background-color: transparent;
         height: auto;
     }
 .banner-heading{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .divider{
     display: none;
@@ -308,6 +306,9 @@ background-color: transparent;
     .banner-heading{
         font-size: 40px;
         padding-top: 50px;
+    }
+    .video-gallery-container .video-boxed {
+        width: 100%;
     }
        #button1{
         padding-left: 30px;
