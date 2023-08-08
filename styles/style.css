@@ -226,6 +226,11 @@ body{
 background-color: transparent;
 }
 
+/* .banner-content .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 
 @media screen and (max-width: 600px)
 {
@@ -236,10 +241,15 @@ background-color: transparent;
         background-image: var(--bs-navbar-toggler-icon-bg);
         filter: invert(1);
     }
+    .banner-content .row {
+    width: 100%;
+     margin-right: 0;
+     margin-left: 0;
+      }
     .banner-image {
         width: 100%;
         height: auto;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .video-gallery-container .video-boxed {
         width: 100%;
@@ -275,6 +285,9 @@ background-color: transparent;
     line-height: 1.2;
   }
 
+  *{
+    border-color: gray;
+}
 }
 
 @media screen and (max-width: 768px) {
