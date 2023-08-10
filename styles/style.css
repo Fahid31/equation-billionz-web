@@ -217,6 +217,11 @@ background-color: transparent;
 @media screen and (max-width: 600px)
 {
 
+
+
+    .video-gallery-container{
+        overflow-x: hidden;
+    }
     .website-name{
         font-size: 20px;
     }
