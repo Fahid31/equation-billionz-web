@@ -216,12 +216,6 @@ background-color: transparent;
 
 @media screen and (max-width: 600px)
 {
-
-
-
-    .video-gallery-container{
-        overflow-x: hidden;
-    }
     .website-name{
         font-size: 20px;
     }
@@ -239,9 +233,15 @@ background-color: transparent;
     .video-gallery-container .video-boxed {
         width: 100%;
     }
+    .scrollBox{
+        margin-left: 80px;
+    }
     .video-slider iframe{
         width: 100%;
         height: auto;
+    }
+    .video-gallery-container{
+        overflow-x: hidden;
     }
 .banner-heading{
     padding-top: 15px;
@@ -253,7 +253,6 @@ background-color: transparent;
 }
 .music-section .card-title{
     font-size: 13px;
-
 }
 .music-section #button3 {
  font-size: 11px;
@@ -262,7 +261,6 @@ background-color: transparent;
 #button1 {
     padding-bottom: 5px;
 }
-
 .box{
     width: 190px;
 }
